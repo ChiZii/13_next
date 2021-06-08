@@ -1,0 +1,86 @@
+.test-border{
+  border:3px dotted gray;
+}
+
+.nav-box{
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.nav-inline{
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-inline:hover{
+  border-radius: 10px;
+  background: rgba(200, 200, 200, 0.1);
+}
+
+.nav-inline, a{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-float-right{
+  float: right;
+}
+
+.main-container{
+  position: relative;
+}
+
+.main-position{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .w1{width:25%}
+  .w2{width:25%}
+  .w3{width:25%}
+  .w4{width:50%}
+  .w5{width:50%}
+  .w6{width:50%}
+  .w7{width:75%}
+  .w8{width:75%}
+  .w9{width:75%}
+  .w10{width:100%}
+
+  .m_hide{display: none;}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1600px) {
+  .w1{width:10%}
+  .w2{width:20%}
+  .w3{width:30%}
+  .w4{width:40%}
+  .w5{width:50%}
+  .w6{width:60%}
+  .w7{width:70%}
+  .w8{width:80%}
+  .w9{width:90%}
+  .w10{width:100%}
+
+  .m_hide{display: inline-block;}
+}
+
+@media only screen and (min-width: 1600px) {
+  .w1{width:190%}
+  .w2{width:380%}
+  .w3{width:570%}
+  .w4{width:760%}
+  .w5{width:950%}
+  .w6{width:1140%}
+  .w7{width:1330%}
+  .w8{width:1520%}
+  .w9{width:1710%}
+  .w10{width:1880%}
+
+  .m_hide{display: inline-block;}
+}
