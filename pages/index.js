@@ -8,14 +8,10 @@ export default function Home() {
     <>
       <TopNav />
       <main className="main-container">
-        main page design need
-        <Image src="/image/home.jpg" alt="main top image" width={1920} height={1080} layout="responsive" />
-        <p className="main-position">over on text</p>
+        {/* <Image src="/image/home.jpg" alt="main top image" width={1920} height={1080} layout="responsive" /> */}
+
+        <p>over on text</p>
       </main>
-      <footer>
-        <hr />
-        <p>This is footer</p>
-      </footer>
     </>
   )
 }
